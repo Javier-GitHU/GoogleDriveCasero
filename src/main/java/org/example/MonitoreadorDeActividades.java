@@ -13,7 +13,7 @@ public class MonitoreadorDeActividades {
 
     private final String carpetaLocal;
     private final ManagerFTP manejador;
-    private static final long INTERVALO = 5000;
+    private static final long INTERVALO = 7000;
 
     public MonitoreadorDeActividades(String carpetaLocal, ManagerFTP manejador) {
         this.carpetaLocal = carpetaLocal;
